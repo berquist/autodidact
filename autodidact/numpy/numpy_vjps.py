@@ -11,8 +11,8 @@ from __future__ import absolute_import
 import numpy as onp
 from . import numpy_wrapper as anp
 from .numpy_boxes import ArrayBox
-from autograd.tracer import primitive
-from autograd.core import defvjp
+from autodidact.tracer import primitive
+from autodidact.core import defvjp
 
 # ----- Binary ufuncs -----
 

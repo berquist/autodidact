@@ -8,7 +8,7 @@ Uses Python namespace-is-a-dict magic.
 """
 from __future__ import absolute_import
 import types
-from autograd.tracer import primitive, notrace_primitive
+from autodidact.tracer import primitive, notrace_primitive
 import numpy as _np
 
 # ----- Non-differentiable functions -----

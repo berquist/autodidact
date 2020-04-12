@@ -6,8 +6,8 @@ Autograd](https://github.com/hips/autograd).
 Example use:
 
 ```python
->>> import autograd.numpy as np  # Thinly-wrapped numpy
->>> from autograd import grad    # The only autograd function you may ever need
+>>> import autodidact.numpy as np  # Thinly-wrapped numpy
+>>> from autodidact import grad    # The only autodidact function you may ever need
 >>>
 >>> def tanh(x):                 # Define a function
 ...     y = np.exp(-2.0 * x)

@@ -6,7 +6,7 @@ to ensure all transformations of an np.ndarray are traced.
 """
 from __future__ import absolute_import
 import numpy as np
-from autograd.tracer import Box, primitive
+from autodidact.tracer import Box, primitive
 from . import numpy_wrapper as anp
 
 Box.__array_priority__ = 90.0

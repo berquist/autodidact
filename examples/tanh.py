@@ -1,7 +1,7 @@
 from __future__ import absolute_import
-import autograd.numpy as np
+import autodidact.numpy as np
 import matplotlib.pyplot as plt
-from autograd import grad
+from autodidact import grad
 
 # We could use np.tanh, but let's write our own as an example.
 def tanh(x):
